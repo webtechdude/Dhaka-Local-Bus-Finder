@@ -95,7 +95,7 @@ function showSuggestions(inputElement, suggestionsElement, value) {
 
     suggestions.forEach((suggestion, idx) => {
         const div = document.createElement('div');
-        div.className = 'px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600 text-gray-900 dark:text-white';
+        div.className = 'px-4 py-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-100';
         div.textContent = suggestion;
         div.tabIndex = 0;
         div.dataset.index = idx;
@@ -120,9 +120,9 @@ function showSuggestions(inputElement, suggestionsElement, value) {
         if (index < 0) index = 0;
         if (index >= children.length) index = children.length - 1;
         // remove previous
-        children.forEach(ch => ch.classList.remove('bg-gray-200', 'dark:bg-gray-600'));
+        children.forEach(ch => ch.classList.remove('bg-gray-200', 'dark:bg-gray-700'));
         const active = children[index];
-        active.classList.add('bg-gray-200', 'dark:bg-gray-600');
+        active.classList.add('bg-gray-200', 'dark:bg-gray-700');
         active.focus();
         suggestionsElement._activeIndex = index;
         // ensure visible
@@ -267,7 +267,7 @@ function findRoutes() {
     });
 
     if (matchingRoutes.length === 0) {
-        resultsDiv.innerHTML = '<p class="text-gray-700 dark:text-gray-300">No direct routes found</p>';
+        resultsDiv.innerHTML = '<p class="text-gray-700 dark:text-gray-200">No direct routes found</p>';
         return;
     }
 
@@ -279,9 +279,9 @@ function findRoutes() {
         html += `
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-4">
                 <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">${name}${bangla}</h3>
-                <p class="text-gray-600 dark:text-gray-300 mb-2"><strong>Route:</strong> ${routeStr}</p>
-                ${bus.service_type ? `<p class="text-gray-600 dark:text-gray-300 mb-2"><strong>Service Type:</strong> ${bus.service_type}</p>` : ''}
-                ${bus.time ? `<p class="text-gray-600 dark:text-gray-300 mb-2"><strong>Time:</strong> ${bus.time}</p>` : ''}
+                <p class="text-gray-700 dark:text-gray-200 mb-2"><strong>Route:</strong> ${routeStr}</p>
+                ${bus.service_type ? `<p class="text-gray-700 dark:text-gray-200 mb-2"><strong>Service Type:</strong> ${bus.service_type}</p>` : ''}
+                ${bus.time ? `<p class="text-gray-700 dark:text-gray-200 mb-2"><strong>Time:</strong> ${bus.time}</p>` : ''}
                 ${bus.image ? `<img src="${bus.image}" alt="${name}" class="max-w-[200px] mt-4 rounded-lg">` : ''}
             </div>
         `;
