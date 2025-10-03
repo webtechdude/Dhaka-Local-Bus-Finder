@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: /sitemap.xml
+
+# Crawl-delay can be set if needed
+# Crawl-delay: 10
