@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Sitemap: https://dhakalocalbus.netlify.app/sitemap.xml
 
 # Crawl-delay can be set if needed
 # Crawl-delay: 10
