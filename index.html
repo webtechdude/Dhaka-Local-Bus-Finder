@@ -12,7 +12,7 @@
     <meta name="description"
         content="Search Dhaka local bus routes and stops. Fast autocomplete for From/To, service types, and route maps. Dark/light mode and mobile-friendly UI.">
     <meta name="keywords"
-        content="Dhaka bus, bus route, local bus, Dhaka routes, bus stops, public transport, Bangladesh buses">
+        content="Dhaka bus, bus route, local bus, Dhaka routes, bus stops, public transport, Bangladesh buses, Dhaka Local Bus Route, Dhaka Bus Routes, Dhaka Bus Finder, Dhaka Bus Search, Dhaka Public Transport, Dhaka Bus Map, Dhaka Bus Services, Dhaka Bus Information">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="/">
     <link rel="alternate" href="/" hreflang="en" />
@@ -60,13 +60,10 @@
                 </div>
             </div>
             <div>
-                <button id="themeSwitcher" aria-label="Toggle theme"
+                <button id="themeSwitcher" aria-label="Toggle theme" aria-pressed="false"
                     class="inline-flex items-center p-2 rounded-md bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                    </svg>
+                    <!-- Font Awesome icon; JS will keep this in sync with the current theme -->
+                    <i id="themeIcon" class="fa-solid fa-moon h-5 w-5"></i>
                 </button>
             </div>
         </header>

@@ -3,10 +3,13 @@ let locations = new Set();
 
 // Theme handling
 function initTheme() {
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-    } else {
+    // Default to dark when there is no saved preference.
+    // If user explicitly saved 'light', respect that.
+    if (localStorage.theme === 'light') {
         document.documentElement.classList.remove('dark');
+    } else {
+        // saved 'dark' or no preference -> dark by default
+        document.documentElement.classList.add('dark');
     }
 }
 
@@ -20,11 +23,34 @@ function toggleTheme() {
     }
 }
 
+// Keep the theme button icon and aria state in sync
+function updateThemeIcon() {
+    const btn = document.getElementById('themeSwitcher');
+    const icon = document.getElementById('themeIcon');
+    if (!btn || !icon) return;
+    const isDark = document.documentElement.classList.contains('dark');
+    btn.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+    // swap classes: moon for dark, sun for light
+    if (isDark) {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+    } else {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+    }
+}
+
 // Initialize theme
 initTheme();
 
+// Sync icon initial state
+updateThemeIcon();
+
 // Add theme toggle listener (exists in index.html)
-document.getElementById('themeSwitcher')?.addEventListener('click', toggleTheme);
+document.getElementById('themeSwitcher')?.addEventListener('click', () => {
+    toggleTheme();
+    updateThemeIcon();
+});
 
 // Load bus data
 const loadingStatus = document.getElementById('loadingStatus');
