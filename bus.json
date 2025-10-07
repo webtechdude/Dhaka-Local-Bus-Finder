@@ -2204,7 +2204,7 @@
             "service_type": ""
         },
         {
-            "english": "kanak",
+            "english": "Kanak",
             "bangla": "কনক বাস",
             "image": "https://firebasestorage.googleapis.com/v0/b/bd-bus-route-32221.appspot.com/o/buses%2F%E0%A6%95%E0%A6%A8%E0%A6%95%20%E0%A6%AC%E0%A6%BE%E0%A6%B8.jpg?alt=media&token=afb05ea0-07b0-4f5c-ac43-9074b3b1c94d",
             "routes": [
@@ -2220,7 +2220,8 @@
                 "Shewra",
                 "Kuril Bishwa Road",
                 "Khilkhet",
-                "Airport Jashimuddin (Uttara)",
+                "Airport",
+                "Jashimuddin (Uttara)",
                 "Rajlakshmi",
                 "Azampur",
                 "House Building",
