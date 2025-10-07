@@ -288,4 +288,20 @@ function findRoutes() {
     });
 
     resultsDiv.innerHTML = html;
+    // Smoothly scroll the results section into view so users see available routes
+    // Use a short timeout to ensure the DOM has updated (helps on some browsers)
+    setTimeout(() => {
+        try {
+            resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // For keyboard users, move focus to the first heading in results (without extra scrolling)
+            const firstHeading = resultsDiv.querySelector('h2, h3');
+            if (firstHeading) {
+                firstHeading.tabIndex = -1; // make focusable
+                firstHeading.focus({ preventScroll: true });
+            }
+        } catch (e) {
+            // ignore if scrollIntoView not supported
+            console.warn('Scroll to results failed', e);
+        }
+    }, 50);
 }
