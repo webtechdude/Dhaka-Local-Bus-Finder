@@ -47,43 +47,59 @@
         crossorigin="anonymous"></script>
     <!-- JSON-LD structured data -->
     <script type="application/ld+json">
-        {
-                "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Dhaka Local Bus Finder",
-    "url": "https://dhakalocalbus.netlify.app/", 
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://dhakalocalbus.netlify.app/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-    
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Dhaka Local Bus Finder",
-            "url": "/",
-            "potentialAction": {
-                "@type": "SearchAction",
-                "target": "{url}?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-            }
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "serviceType": "Bus Route Finder",
-            "provider": {
-                "@type": "Organization",
-                "name": "Dhaka Local Bus Finder",
-                "url": "https://dhakalocalbus.netlify.app"
-            },
-            "areaServed": {
-                "@type": "City",
-                "name": "Dhaka"
-            }
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://dhakalocalbus.netlify.app/#website",
+        "name": "Dhaka Local Bus Finder",
+        "url": "https://dhakalocalbus.netlify.app/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://dhakalocalbus.netlify.app/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
         }
-        </script>
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Bus Route Finder",
+        "provider": {
+            "@type": "Organization",
+            "@id": "https://dhakalocalbus.netlify.app/#organization",
+            "name": "Dhaka Local Bus Finder",
+            "url": "https://dhakalocalbus.netlify.app/"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Dhaka"
+        },
+        "description": "A service to find local bus routes and schedules in Dhaka, Bangladesh."
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How do I find bus routes in Dhaka?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Enter your starting point and destination in our search tool to view available bus routes and schedules in Dhaka."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are bus schedules updated regularly?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our schedules are updated daily based on information from local bus operators."
+                }
+            }
+        ]
+    }
+]
+</script>
 </head>
 
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen transition-colors duration-200">
