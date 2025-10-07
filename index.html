@@ -48,6 +48,7 @@
     <!-- JSON-LD structured data -->
     <script type="application/ld+json">
         {
+<<<<<<< HEAD
                 "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Dhaka Local Bus Finder",
@@ -59,6 +60,32 @@
     }
 }
     
+=======
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Dhaka Local Bus Finder",
+            "url": "/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{url}?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Bus Route Finder",
+            "provider": {
+                "@type": "Organization",
+                "name": "Dhaka Local Bus Finder",
+                "url": "https://dhakalocalbus.netlify.app"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Dhaka"
+            }
+        }
+>>>>>>> bd1b584 (some changes)
         </script>
 </head>
 
