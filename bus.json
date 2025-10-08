@@ -34,7 +34,7 @@
                 "Demra Staff Quarter"
             ],
             "time": "",
-            "service_type": "Semi-Sitting Service(Check System)"
+            "service_type": "Semi-Sitting Service"
         },
         {
             "english": "Agradut",
@@ -116,7 +116,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Nabisco",
                 "Mohakhali",
@@ -159,7 +159,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -225,7 +225,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Nabisco",
@@ -407,7 +407,7 @@
                 "Badda",
                 "Uttar Badda",
                 "Shahjadpur",
-                "Bashtola -",
+                "Bashtola",
                 "Notun Bazar",
                 "Nadda",
                 "Bashundhara",
@@ -428,7 +428,7 @@
                 "Gazipur Chourasta"
             ],
             "time": "6 am-12pm",
-            "service_type": "Sitting Service(Check System)"
+            "service_type": "Sitting Service"
         },
         {
             "english": "Arnob",
@@ -467,7 +467,7 @@
                 "Duaripara",
                 "Rupnagar Abashik",
                 "Shiyal Bari",
-                "Proshika Moor",
+                "Proshika Mor",
                 "Mirpur 2",
                 "Mirpur 1",
                 "Ansar Camp",
@@ -562,7 +562,8 @@
                 "Mohammadpur Bus Stand",
                 "Asad Gate",
                 "Shukrabad",
-                "Kalabagan City College",
+                "Kalabagan",
+                "City College",
                 "Science Lab",
                 "Katabon",
                 "Bata Signal",
@@ -573,7 +574,7 @@
                 "Paltan",
                 "GPO",
                 "Gulistan",
-                "Arambagh Notre Dame College"
+                "Arambagh"
             ],
             "time": "",
             "service_type": ""
@@ -597,7 +598,7 @@
                 "Bangla Motor",
                 "Mogbazar",
                 "Mouchak",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Rajarbag",
                 "Kamalapur"
             ],
@@ -621,14 +622,15 @@
                 "Shyamoli",
                 "Asad Gate",
                 "Dhanmondi 27",
-                "Dhanmondi 32 Kalabagan",
+                "Dhanmondi 32",
+                "Kalabagan",
                 "Science Lab",
                 "Katabon",
                 "Shahbag",
                 "High Court",
                 "Press Club",
                 "Paltan",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Motijheel",
                 "Arambagh",
                 "Kamlapur",
@@ -637,7 +639,7 @@
                 "Khilgaon"
             ],
             "time": "6 am-11pm",
-            "service_type": "Semi-Sitting Service (Check System)"
+            "service_type": "Semi-Sitting Service "
         },
         {
             "english": "Baishakhi",
@@ -674,7 +676,7 @@
                 "Manik Nagar",
                 "TT Para",
                 "Kamalapur",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Satrasta",
@@ -826,7 +828,7 @@
                 "GPO",
                 "Gulistan",
                 "Motijheel",
-                "Ittefaq Moor",
+                "Ittefaq Mor",
                 "Sayedabad",
                 "Jatrabari"
             ],
@@ -882,7 +884,7 @@
                 "Shewrapara",
                 "Taltola",
                 "Agargaon",
-                "Khamarbari",
+                "Khamar Bari",
                 "Farmgate",
                 "Kawran Bazar",
                 "Bangla Motor",
@@ -1044,7 +1046,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -1204,7 +1206,7 @@
             "routes": [
                 "Mohammadpur",
                 "Asad Gate",
-                "Khamar Bari -",
+                "Khamar Bari",
                 "Farmgate",
                 "Jahangir Gate",
                 "Mohakhali",
@@ -1283,7 +1285,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -1508,7 +1510,7 @@
             "image": "https://firebasestorage.googleapis.com/v0/b/bd-bus-route-32221.appspot.com/o/buses%2F%E0%A6%A1%E0%A6%BF%20%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%A8%20%E0%A6%AC%E0%A6%BE%E0%A6%B8.jpg?alt=media&token=e32883ac-58b6-4b95-a8d0-8ef3295e801c",
             "routes": [
                 "Motijheel",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Paltan",
                 "Press Club",
                 "Matsya Bhaban",
@@ -1783,7 +1785,8 @@
                 "Rupnagar Abashik",
                 "Mirpur 2",
                 "Mirpur 1",
-                "Khamar Bari Farmgate",
+                "Khamar Bari",
+                "Farmgate",
                 "Gulistan",
                 "Keraniganj"
             ],
@@ -1828,7 +1831,7 @@
                 "GPO",
                 "Gulistan",
                 "Sayedabad",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari",
                 "Shonir Akhra",
                 "Rayerbag",
@@ -1869,7 +1872,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Nabisco",
@@ -1975,7 +1978,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -2075,7 +2078,7 @@
                 "Rayerbag",
                 "Shonir Akhra",
                 "Jatrabari",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Gulistan",
                 "GPO",
                 "Paltan",
@@ -2085,14 +2088,16 @@
                 "Shahbag",
                 "Bangla Motor",
                 "Kawran Bazar",
-                "Farmgate Bijoy Sarani",
+                "Farmgate",
+                "Bijoy Sarani",
                 "Agargaon",
                 "Taltola",
                 "Shewrapara",
                 "Kazipara",
                 "Mirpur 10",
                 "Mirpur 11",
-                "Purobi Pallabi",
+                "Purobi",
+                "Pallabi",
                 "Mirpur 12"
             ],
             "time": "",
@@ -2225,7 +2230,7 @@
                 "Rajlakshmi",
                 "Azampur",
                 "House Building",
-                "Abdulla"
+                "Abdullahpur"
             ],
             "time": "",
             "service_type": ""
@@ -2303,7 +2308,7 @@
                 "Bangla Motor",
                 "Mogbazar",
                 "Mouchak",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Rajarbag",
                 "Khilgaon Flyover",
                 "Bashabo",
@@ -2311,7 +2316,7 @@
                 "Manik Nagar",
                 "Golapbag Chourasta",
                 "Sayedabad",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari",
                 "Kazla",
                 "Shonir Akhra",
@@ -2320,7 +2325,7 @@
                 "Sign Board"
             ],
             "time": "",
-            "service_type": "Sitting Service(Check System)"
+            "service_type": "Sitting Service"
         },
         {
             "english": "Lal Sabuj",
@@ -2379,7 +2384,7 @@
                 "High Court",
                 "Press Club",
                 "Paltan",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Motijheel"
             ],
             "time": "",
@@ -2427,7 +2432,7 @@
                 "GPO",
                 "Paltan",
                 "Kakrail",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Satrasta",
@@ -2490,9 +2495,9 @@
                 "Shahbag",
                 "Matsya Bhaban",
                 "Paltan",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Motijheel",
-                "Ittefaq Moor Sayedabad",
+                "Ittefaq Mor Sayedabad",
                 "Jatrabari",
                 "Shanir Akhra",
                 "Rayerbag",
@@ -2529,7 +2534,7 @@
                 "Khilgaon"
             ],
             "time": "6:00 am – 11:00 pm",
-            "service_type": "Semi-Sitting Service(Check System)"
+            "service_type": "Semi-Sitting Service"
         },
         {
             "english": "Mirpur Metro Services",
@@ -2648,7 +2653,7 @@
                 "Bangla Motor",
                 "Mogbazar",
                 "Mouchak",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Rajarbag",
                 "Khilgaon Flyover",
                 "Bashabo",
@@ -2656,7 +2661,7 @@
                 "Manik Nagar",
                 "Golapbag Chourasta",
                 "Sayedabad",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari",
                 "Kazla",
                 "Shonir Akhra",
@@ -2665,7 +2670,7 @@
                 "Sign Board"
             ],
             "time": "",
-            "service_type": "Sitting Service(Check System)"
+            "service_type": "Sitting Service"
         },
         {
             "english": "Modhumita",
@@ -2809,7 +2814,8 @@
                 "GPO",
                 "Gulistan",
                 "Motijheel",
-                "Arambagh Kingdom"
+                "Arambagh",
+                "Fantasy Kingdom"
             ],
             "time": "",
             "service_type": ""
@@ -2846,7 +2852,7 @@
                 "Malibagh Railgate"
             ],
             "time": "5:30 am – 10:30 pm",
-            "service_type": "Sitting Service(Check System)"
+            "service_type": "Sitting Service"
         },
         {
             "english": "New Vision Dhaka",
@@ -2870,7 +2876,7 @@
                 "High Court",
                 "Press Club",
                 "Paltan",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Motijheel"
             ],
             "time": "",
@@ -2922,7 +2928,7 @@
             "image": "https://firebasestorage.googleapis.com/v0/b/bd-bus-route-32221.appspot.com/o/buses%2F%E0%A6%93%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%BE%20%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%B2%20%E0%A6%AC%E0%A6%BE%E0%A6%B8.jpg?alt=media&token=506ae654-215f-4cfb-9c10-62e8ab67c7b7",
             "routes": [
                 "Motijheel",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Paltan",
                 "Press Club",
                 "Matsya Bhaban",
@@ -3020,7 +3026,7 @@
             "image": "https://firebasestorage.googleapis.com/v0/b/bd-bus-route-32221.appspot.com/o/buses%2F%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%9F%20%E0%A6%AC%E0%A6%BE%E0%A6%B8.jpg?alt=media&token=76cacc88-a0bc-445a-b503-f719b769cdb1",
             "routes": [
                 "Gabtoli",
-                "Beribadh Tin Rastar Moor",
+                "Beribadh Tin Rastar Mor",
                 "Rayer Bazar",
                 "Sikder Medical College",
                 "Hazaribag",
@@ -3047,7 +3053,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -3120,7 +3126,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mogbazar",
                 "Satrasta",
                 "Nabisco",
@@ -3184,7 +3190,7 @@
                 "Postagola",
                 "Dholairpar",
                 "Jatrabari",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Sayedabad",
                 "Mugdapara",
                 "Bashabo",
@@ -3211,7 +3217,7 @@
                 "Dia Bari"
             ],
             "time": "6:00 am – 11:00 pm",
-            "service_type": "Sitting Service(Check System)"
+            "service_type": "Sitting Service"
         },
         {
             "english": "Raja City Dhaka",
@@ -3331,7 +3337,7 @@
                 "Matsya Bhaban",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -3431,7 +3437,7 @@
                 "Farmgate",
                 "Bangla Motor",
                 "Mogbazar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Kamalapur"
             ],
             "time": "5:30 am – 10:30 pm",
@@ -3597,7 +3603,7 @@
                 "Fakirapul",
                 "Arambagh",
                 "Motijheel",
-                "Ittefaq Moor",
+                "Ittefaq Mor",
                 "Tikatuli",
                 "Dayaganj",
                 "Gandaria",
@@ -3615,7 +3621,7 @@
                 "Motijheel",
                 "Paltan",
                 "Kakrail",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Satrasta",
@@ -3663,7 +3669,7 @@
                 "Paltan",
                 "GPO",
                 "Gulistan",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari"
             ],
             "time": "",
@@ -3829,7 +3835,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Nabisco",
                 "Mohakhali",
@@ -3886,7 +3892,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -3965,7 +3971,7 @@
                 "Bangla Motor",
                 "Mogbazar",
                 "Mouchak",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Rajarbag",
                 "Khilgaon Flyover",
                 "Bashabo",
@@ -3973,7 +3979,7 @@
                 "Manik Nagar",
                 "Golapbag Chourasta",
                 "Sayedabad",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari",
                 "Kazla",
                 "Shonir Akhra",
@@ -4034,7 +4040,7 @@
                 "Matsya Bhaban",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -4056,7 +4062,7 @@
                 "Mugdapara",
                 "Bashabo",
                 "Khilgaon",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Rampura Bazar",
                 "Rampura Bridge",
                 "Merul",
@@ -4238,7 +4244,7 @@
                 "Gulistan",
                 "Motijheel",
                 "Sayedabad",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Jatrabari"
             ],
             "time": "",
@@ -4299,7 +4305,7 @@
                 "High Court",
                 "Press Club",
                 "Paltan",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Motijheel"
             ],
             "time": "",
@@ -4337,7 +4343,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -4361,7 +4367,7 @@
                 "Diabari"
             ],
             "time": "",
-            "service_type": "Semi-Sitting Service(Check System)"
+            "service_type": "Semi-Sitting Service"
         },
         {
             "english": "Victor Paribahan",
@@ -4376,7 +4382,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Malibagh Railgate",
                 "Hazipara",
@@ -4393,7 +4399,7 @@
                 "Kuril Bishwa Road"
             ],
             "time": "6:30 am – 10:30 pm",
-            "service_type": "Semi-Sitting Service(Check System)"
+            "service_type": "Semi-Sitting Service"
         },
         {
             "english": "VIP 27",
@@ -4528,7 +4534,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Kawran Bazar",
@@ -4555,7 +4561,7 @@
                 "Paltan",
                 "Kakrail",
                 "Shantinagar",
-                "Malibagh Moor",
+                "Malibagh Mor",
                 "Mouchak",
                 "Mogbazar",
                 "Kawran Bazar",
@@ -4607,10 +4613,10 @@
             "image": "https://firebasestorage.googleapis.com/v0/b/bd-bus-route-32221.appspot.com/o/buses%2F%E0%A7%AE%E0%A6%A8%E0%A6%82%20%E0%A6%AC%E0%A6%BE%E0%A6%B8.jpg?alt=media&token=ad9da4c7-88e3-481f-b83c-0d53d0e221d3",
             "routes": [
                 "Jatrabari",
-                "Janapath Moor",
+                "Janapath Mor",
                 "Sayedabad",
                 "Motijheel",
-                "Dainik Bangla Moor",
+                "Dainik Bangla Mor",
                 "Paltan",
                 "Press Club",
                 "Matsya Bhaban",
