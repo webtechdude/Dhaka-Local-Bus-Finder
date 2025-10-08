@@ -1,6 +1,6 @@
 {
     "name": "dhaka-local-bus-finder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "scripts": {
         "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
