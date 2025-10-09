@@ -1,4 +1,4 @@
-# Dhaka Local Bus
+# Dhaka Local Bus Finder
 
 This project shows Dhaka bus routes and provides a search UI with autocomplete.
 
